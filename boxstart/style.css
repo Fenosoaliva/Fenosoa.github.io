@@ -1,0 +1,22 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+  p{
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-size: 1.063rem;
+    /* puisque ici on a pas définit un font-size à l'élément parent j'ai converti comme par défaut */
+    background-color: rgb(12, 138, 100);
+    color: rgb(240, 99, 181);
+    text-shadow: black 2px 2px;
+    border-radius: 7px;
+    border: solid 1px rgb(2, 44, 6);
+    background-image:linear-gradient(to bottom right,rgb(247, 238, 238),30%,rgb(0,0,0,1));
+    box-shadow: 5px 5px black, 
+              inset rgb(252, 248, 248,0.5) 5px 5px,
+              rgb(0,0,0,1) 10px 10px;
+  }
